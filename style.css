@@ -118,6 +118,43 @@ main{
 
 }
 
+
+/* -----gráfico ------------------------------ */
+#art{
+    display: flex;
+    justify-content: space-evenly;
+    
+    margin-top: 20px;
+
+}
+article{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    border-bottom: 2px solid black;
+    border: 1px solid;
+    /* min-width: 200px;
+    max-width: 300px;
+    margin-bottom: 20px; */
+    padding-top: 20px;
+}
+article div{
+    background-color: aqua;
+    width: 20px;
+    margin: 0 10px;
+    /* height: 100px; */
+}
+
+
+
+
+
+
+/* -----gráfico ----fim-------------------------- */
+
+
+
 /* #clear{
     clear: both;
 } */

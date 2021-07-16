@@ -119,40 +119,65 @@ for (let i = 0; i < 1000; i++) {
 // -----------------tabela----------------------------
 let span1 = document.getElementsByClassName("soma1")[0]
 span1.innerHTML = soma11
+let barra1 = document.getElementsByClassName("coluna1")[0]
+barra1.style.height = `${soma11}px`
 
 let span2 = document.getElementsByClassName("soma2")[0]
 span2.innerHTML = soma12
+let barra2 = document.getElementsByClassName("coluna2")[0]
+barra2.style.height = `${soma12}px`
 
 let span3 = document.getElementsByClassName("soma3")[0]
 span3.innerHTML = soma13
+let barra3 = document.getElementsByClassName("coluna3")[0]
+barra3.style.height = `${soma13}px`
 
 let span4 = document.getElementsByClassName("soma4")[0]
 span4.innerHTML = soma14
+let barra4 = document.getElementsByClassName("coluna4")[0]
+barra4.style.height = `${soma14}px`
 
 let span5 = document.getElementsByClassName("soma5")[0]
 span5.innerHTML = soma15
+let barra5 = document.getElementsByClassName("coluna5")[0]
+barra5.style.height = `${soma15}px`
 
 let span6 = document.getElementsByClassName("soma6")[0]
 span6.innerHTML = soma16
+let barra6 = document.getElementsByClassName("coluna6")[0]
+barra6.style.height = `${soma16}px`
+
 
 
 let span21 = document.getElementsByClassName("soma1")[1]
 span21.innerHTML = soma21
+let barra21 = document.getElementsByClassName("coluna1")[1]
+barra21.style.height = `${soma21}px`
 
 let span22 = document.getElementsByClassName("soma2")[1]
 span22.innerHTML = soma22
+let barra22 = document.getElementsByClassName("coluna2")[1]
+barra22.style.height = `${soma22}px`
 
 let span23 = document.getElementsByClassName("soma3")[1]
 span23.innerHTML = soma23
+let barra23 = document.getElementsByClassName("coluna3")[1]
+barra23.style.height = `${soma23}px`
 
 let span24 = document.getElementsByClassName("soma4")[1]
 span24.innerHTML = soma24
+let barra24 = document.getElementsByClassName("coluna4")[1]
+barra24.style.height = `${soma24}px`
 
 let span25 = document.getElementsByClassName("soma5")[1]
 span25.innerHTML = soma25
+let barra25 = document.getElementsByClassName("coluna5")[1]
+barra25.style.height = `${soma25}px`
 
 let span26 = document.getElementsByClassName("soma6")[1]
 span26.innerHTML = soma26
+let barra26 = document.getElementsByClassName("coluna6")[1]
+barra26.style.height = `${soma26}px`
 
 
 let resultado1 = soma11 + soma12 + soma13 + soma14 + soma15 + soma16
