@@ -114,7 +114,7 @@ main{
 
 /* ----------dado6------fim----------------------------- */
 #display {
-    margin-top: 120vh;
+    margin-top: 140vh;
 
 }
 
@@ -123,6 +123,7 @@ main{
 #art{
     display: flex;
     justify-content: space-evenly;
+    flex-flow: wrap;
     
     margin-top: 20px;
 
@@ -131,6 +132,7 @@ article{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    
 
     border-bottom: 2px solid black;
     border: 1px solid;
