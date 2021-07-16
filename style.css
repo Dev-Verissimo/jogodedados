@@ -1,0 +1,133 @@
+h1 {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+
+    padding: 30px;
+}
+main{
+    
+    padding: 20px;
+}
+
+.dado {
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px;
+    background-color: antiquewhite;
+
+    position: absolute;
+    z-index: 1;
+}
+
+#dado2 .dado{
+    position: absolute;
+    top: 100vh;
+}
+
+.bolinha {
+    width: 40px;
+    height: 40px;
+    
+    border-radius: 50px;
+    background-color: black;
+}
+
+.dado1 {
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+
+}
+/* -----------dado2 ------------------------------- */
+.dado2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dado2 .bolinha ~ .bolinha {
+    align-self: flex-end;
+}
+/* -----------dado2 ----fim--------------------------- */
+
+/* ----------dado3 ----------------------------------- */
+.dado3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dado3 .bolinha:nth-child(2) {
+    align-self: center;
+}
+
+.dado3 .bolinha:nth-child(3) {
+    align-self: flex-end;
+}
+/* ----------dado3 ------fim----------------------------- */
+
+/* ----------dado4 ----------------------------------- */
+.dado4 {
+    display: flex;
+    justify-content: space-between;
+}
+.dado4 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* ----------dado4 ------fim----------------------------- */
+/* ----------dado5 ----------------------------------- */
+.dado5 {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+}
+.dado5 div[class=bolinha]{
+    align-self: center;
+}
+.dado5> div {
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* ----------dado5------fim----------------------------- */
+
+/* ----------dado6----------------------------------- */
+.dado6 {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+}
+
+.dado6 > div {
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* ----------dado6------fim----------------------------- */
+#display {
+    margin-top: 120vh;
+
+}
+
+/* #clear{
+    clear: both;
+} */
+
+@media (min-width: 700px) {
+    #dado2 .dado{
+        top: inherit;
+        right: 20px;
+    }
+    #display {
+        margin-top: 70vh;
+        width: 60vw;
+    }
+}

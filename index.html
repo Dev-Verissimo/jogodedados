@@ -1,13 +1,210 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rolando dados</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Rolando dados</h1>
 
-    <script src="dice-roller.js"></script>
+    <main>
+        <div id="dado1">
+            <div class="dado dado1">
+                <div class="bolinha"></div>
+            </div>
+            <div class="dado dado2">
+                <div class="bolinha"></div>
+                <div class="bolinha"></div>
+            </div>
+            <div class="dado dado3">
+                <div class="bolinha"></div>
+                <div class="bolinha"></div>
+                <div class="bolinha"></div>
+            </div>
+            <div class="dado dado4">
+                <div>
+                    <div class="bolinha"></div>
+                    <div class="bolinha"></div>
+                </div>
+                <div>
+                    <div class="bolinha"></div>
+                    <div class="bolinha"></div>
+                </div>
+            </div>
+            <div class="dado dado5">
+                <div>
+                    <div class="bolinha"></div>
+                    <div class="bolinha"></div>
+                </div>
+                <div class="bolinha"></div>
+                <div>
+                    <div class="bolinha"></div>
+                    <div class="bolinha"></div>
+                </div>
+            </div>
+            <div class="dado dado6">
+                <div>
+                    <div class="bolinha"></div>
+                    <div class="bolinha"></div>
+                    <div class="bolinha"></div>
+                </div>
+                <div>
+                    <div class="bolinha"></div>
+                    <div class="bolinha"></div>
+                    <div class="bolinha"></div>
+                </div>
+                
+            </div>
+            
+        </div>
+        <div id="dado2">
+            <div class="dado dado1">
+                <div class="bolinha"></div>
+            </div>
+            <div class="dado dado2">
+                <div class="bolinha"></div>
+                <div class="bolinha"></div>
+            </div>
+            <div class="dado dado3">
+                <div class="bolinha"></div>
+                <div class="bolinha"></div>
+                <div class="bolinha"></div>
+            </div>
+            <div class="dado dado4">
+                <div>
+                    <div class="bolinha"></div>
+                    <div class="bolinha"></div>
+                </div>
+                <div>
+                    <div class="bolinha"></div>
+                    <div class="bolinha"></div>
+                </div>
+            </div>
+            <div class="dado dado5">
+                <div>
+                    <div class="bolinha"></div>
+                    <div class="bolinha"></div>
+                </div>
+                <div class="bolinha"></div>
+                <div>
+                    <div class="bolinha"></div>
+                    <div class="bolinha"></div>
+                </div>
+            </div>
+            <div class="dado dado6">
+                <div>
+                    <div class="bolinha"></div>
+                    <div class="bolinha"></div>
+                    <div class="bolinha"></div>
+                </div>
+                <div>
+                    <div class="bolinha"></div>
+                    <div class="bolinha"></div>
+                    <div class="bolinha"></div>
+                </div>
+            </div>
+        </div>
+        <div id="clear"></div>
+    </main>
+    
+    <section id="display">
+
+        <h2>
+            Os resultados das 1000 repetições:
+        </h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Estatísticas</th>
+                </tr>
+                <tr>
+                    <th>Face</th>
+                    <th>Frequencia</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><span class="soma1"></span></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><span class="soma2"></span></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><span class="soma3"></span></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><span class="soma4"></span></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><span class="soma5"></span></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><span class="soma6"></span></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Resultado : </td>
+                    <td><span class="resultado1"></span></td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Estatísticas</th>
+                </tr>
+                <tr>
+                    <th>Face</th>
+                    <th>Frequencia</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><span class="soma1"></span></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><span class="soma2"></span></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><span class="soma3"></span></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><span class="soma4"></span></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><span class="soma5"></span></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><span class="soma6"></span></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Resultado : </td>
+                    <td><span class="resultado1"></span></td>
+                </tr>
+            </tfoot>
+        </table>
+
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
