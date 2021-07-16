@@ -5,8 +5,9 @@ h1 {
     padding: 30px;
 }
 main{
-    
-    padding: 20px;
+    position: relative;
+    max-width: 500px;
+    padding: 10% 20%;
 }
 
 .dado {
